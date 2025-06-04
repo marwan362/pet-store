@@ -73,7 +73,6 @@ const PetListPage = () => {
       </h1>
 
       <SearchBar
-        searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
         statusFilter={statusFilter}
         onStatusChange={setStatusFilter}

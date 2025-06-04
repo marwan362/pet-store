@@ -1,14 +1,12 @@
 import { useState, useEffect } from "react";
 
 interface SearchBarProps {
-  searchTerm: string;
   onSearchChange: (term: string) => void;
   statusFilter: "available" | "pending" | "sold";
   onStatusChange: (status: "available" | "pending" | "sold") => void;
 }
 
 const SearchBar = ({
-  searchTerm,
   onSearchChange,
   statusFilter,
   onStatusChange,
