@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/marwan362/pet-store/static/css/main.7842b21b.css",
+    "main.js": "/marwan362/pet-store/static/js/main.eb76539a.js",
+    "static/js/453.23c63e8f.chunk.js": "/marwan362/pet-store/static/js/453.23c63e8f.chunk.js",
+    "index.html": "/marwan362/pet-store/index.html",
+    "main.7842b21b.css.map": "/marwan362/pet-store/static/css/main.7842b21b.css.map",
+    "main.eb76539a.js.map": "/marwan362/pet-store/static/js/main.eb76539a.js.map",
+    "453.23c63e8f.chunk.js.map": "/marwan362/pet-store/static/js/453.23c63e8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7842b21b.css",
+    "static/js/main.eb76539a.js"
+  ]
+}
