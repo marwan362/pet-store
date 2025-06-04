@@ -85,9 +85,9 @@ const PetListPage = () => {
             No pets found matching your search.
           </div>
         ) : (
-          filteredPets.map((pet) => (
+          filteredPets.map((pet, index) => (
             <PetCard
-              key={pet.id}
+              key={`${pet.id}+${index}`}
               pet={pet}
               onClick={() => handlePetClick(pet.id)}
             />
